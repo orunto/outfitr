@@ -1,6 +1,10 @@
-const Button = () => {
+import '../css/component.css'
+
+const Button = (props) => {
     return(
-        <div></div>
+        <button >
+            {props.children}
+        </button>
     )
 }
 
