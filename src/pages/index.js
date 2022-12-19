@@ -1,3 +1,3 @@
-export { default as Home } from '/Home'
-export { default as SearchResults } from '/SearchResults'
-export { default as RandomGen } from '/RandomGen'
+export { default as Home } from './Home'
+export { default as SearchResult } from './SearchResult'
+export { default as RandomGen } from './RandomGen'

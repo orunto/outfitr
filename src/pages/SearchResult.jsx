@@ -1,7 +1,7 @@
-const SearchResults = () =>{
+const SearchResult = () =>{
     return(
         <div></div>
     )
 }
 
-export default SearchResults
+export default SearchResult
