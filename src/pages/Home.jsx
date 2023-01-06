@@ -1,4 +1,5 @@
 import Logo from '../images/outfitr-logo.svg'
+import Copyright from '../images/copyright.svg'
 import '../css/home.css'
 import {Button, SearchBar} from '../components'
 
@@ -19,8 +20,8 @@ const Home = () =>{
 
                 <p>To improve your experience and personalization of outfit suggestions, Outfitr may store cookies on your device. By using Outfitr, you agree to this term of usage.</p>
             </div>
+            <span><img src={Copyright} alt='copyright icon'/>Softdrobe Inc. 2023</span>
 
-            <div className="HomeBackground"></div>
         </div>
     )
 }

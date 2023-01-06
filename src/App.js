@@ -9,6 +9,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/search' element={<SearchResult/>}/>
         <Route path='/random' element={<RandomGen/>}/>
+        <Route path='*' element={<Home/>}/>
       </Routes>
     </Router>    
   );
