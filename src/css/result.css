@@ -62,6 +62,7 @@
     display: flex;
     align-items: flex-end;
     overflow: hidden;
+    background-size: cover
 }
 
 .RandomGenImage button {
@@ -148,6 +149,10 @@ span {
     position: fixed;
     bottom: 40px;
     right: 40px;
+}
+
+#randomimg{
+    background: red;
 }
 
 @media (max-width: 500px) {
