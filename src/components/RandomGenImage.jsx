@@ -1,6 +1,8 @@
-const RandomGenImage = () => {
+const RandomGenImage = (props) => {
     return(
-        <div></div>
+        <div className="RandomGenImage" id={props.id}>
+            <button>See more like this</button>
+        </div>
     )
 }
 
