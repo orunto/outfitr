@@ -15,7 +15,7 @@ const Home = () =>{
                 <div className='Options'>
                     <SearchBar/>
                     <h2>OR</h2>
-                    <a href='/randomgen'><Button>Random Outfit Idea</Button></a>
+                    <a href='/random'><Button>Random Outfit Idea</Button></a>
                 </div>
 
                 <p>To improve your experience and personalization of outfit suggestions, Outfitr may store cookies on your device. By using Outfitr, you agree to this term of usage.</p>
