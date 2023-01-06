@@ -2,7 +2,7 @@ import Copyright from '../images/copyright.svg'
 import Logo from '../images/outfitr-logo.svg'
 import Search from '../images/Search.svg'
 import '../css/result.css'
-// import {RandomGenImage, SearchBar} from '../components'
+import { SearchResultImage } from '../components'
 
 const SearchResult = () =>{
     return(
@@ -12,6 +12,20 @@ const SearchResult = () =>{
                     <img className='Logo' src={Logo} />
                     <img className='Search' src={Search} />
                 </div>
+
+                <div className='SearchResultContentContainer'>
+                    <div className='SearchResultContent'>
+                        <SearchResultImage/>
+                        <SearchResultImage/>
+                        <SearchResultImage/>
+                        <SearchResultImage/>
+                        <SearchResultImage/>
+                        <SearchResultImage/>
+                        <SearchResultImage/>
+                    </div>
+                </div>
+
+                <p>Scroll for more</p>
             </div>
 
             <span><img src={Copyright} alt='copyright icon'/>Softdrobe Inc. 2023</span>

@@ -1,6 +1,8 @@
-const SearchResultImage = () => {
+const SearchResultImage = (props) => {
     return(
-        <div></div>
+        <div className="SearchResultImage" id={props.id}>
+            <button>See details</button>
+        </div>
     )
 }
 
