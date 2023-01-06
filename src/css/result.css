@@ -116,6 +116,7 @@ span {
 @media (max-width: 500px) {
     .Result {
         height: unset;
+        position: relative;
     }
     .ResultContent {
         width: 100%;
