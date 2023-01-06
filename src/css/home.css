@@ -67,6 +67,9 @@ span {
         position: relative;
     }
 
+    .Home {
+        position: relative;
+    }
     span {
         display: none;
     }
