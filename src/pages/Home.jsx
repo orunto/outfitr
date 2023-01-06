@@ -3,6 +3,9 @@ import Copyright from '../images/copyright.svg'
 import '../css/home.css'
 import {Button, SearchBar} from '../components'
 
+
+
+
 const Home = () =>{
     return(
         <div className="Home">
@@ -14,8 +17,8 @@ const Home = () =>{
 
                 <div className='Options'>
                     <SearchBar/>
-                    <h2>OR</h2>
-                    <a href='/random'><Button>Random Outfit Idea</Button></a>
+                    <h2 >OR</h2>
+                    <Button >Random Outfit Idea</Button>
                 </div>
 
                 <p>To improve your experience and personalization of outfit suggestions, Outfitr may store cookies on your device. By using Outfitr, you agree to this term of usage.</p>
