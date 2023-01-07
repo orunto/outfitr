@@ -1,4 +1,4 @@
-import Copyright from '../images/copyright.svg'
+import { ReactComponent as Copyright } from "../images/copyright.svg";
 import Logo from '../images/outfitr-logo.svg'
 import Search from '../images/Search.svg'
 import goback from '../images/goback.svg'
@@ -69,7 +69,7 @@ const RandomGen = () =>{
 
             </div>
 
-            <span><img src={Copyright} alt='copyright icon'/>Softdrobe Inc. 2023</span>
+            <span><Copyright/>Softdrobe Inc. 2023</span>
 
         </div>
     )

@@ -62,15 +62,30 @@ span {
 
 @media (max-width: 500px) {
     .HomeContents {
-        width: 100%;
+        width: calc(100% - 60px);
         border: none;
         position: relative;
     }
 
     .Home {
         position: relative;
+        flex-direction: column;
     }
+    
     span {
-        display: none;
+        display: flex;
+        width: calc(100% - 16px);
+        bottom: unset;
+        right: unset;
+        padding: 8px ;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+        background: #1E3022;
+        position: relative
+    }
+
+    span svg path {
+        stroke: #fff;
     }
 }

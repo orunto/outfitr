@@ -159,9 +159,11 @@ span {
     .Result {
         height: unset;
         position: relative;
+        flex-direction: column;
+        gap: 24px;
     }
     .ResultContent {
-        width: 100%;
+        /* width: 100%; */
         border: none;
     }
 
@@ -173,6 +175,19 @@ span {
     
 
     span {
-        display: none;
+        display: flex;
+        width: calc(100% - 16px);
+        bottom: unset;
+        right: unset;
+        padding: 8px ;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+        background: #1E3022;
+        position: relative
+    }
+
+    span svg path {
+        stroke: #fff;
     }
 }
