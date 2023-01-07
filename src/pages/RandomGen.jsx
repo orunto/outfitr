@@ -24,15 +24,11 @@ function RandomImageGenerator () {
     console.log(months[index])
 
     localStorage.setItem('value1', `${months[index]}`)
-    let str = localStorage.getItem('value1')
-    console.log('Local: ' + str)
     window.location.reload()
 }
 
 let storedimage = localStorage.getItem('value1')
-
 const image = "https://cdn.jsdelivr.net/gh/orunto/mycdn/outfitr/" + storedimage
-
 
 
 

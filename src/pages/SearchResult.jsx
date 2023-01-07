@@ -9,8 +9,8 @@ const SearchResult = () =>{
         <div className="Result">
             <div className='ResultContent'>
                 <div className="Header">
-                    <img className='Logo' src={Logo} />
-                    <img className='Search' src={Search} />
+                    <img className='Logo' src={Logo} alt='Outfitr Logo'/>
+                    <img className='Search' src={Search} alt='Search Icon'/>
                 </div>
 
                 <div className='SearchResultContentContainer'>

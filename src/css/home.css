@@ -60,7 +60,7 @@ span {
     right: 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1100px) {
     .HomeContents {
         width: calc(100% - 60px);
         border: none;
