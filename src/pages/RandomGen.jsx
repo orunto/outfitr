@@ -33,6 +33,7 @@ function RandomImageGenerator () {
 let storedimage = localStorage.getItem('value1')
 console.log("From localstorage: " + storedimage)
 const image = "https://cdn.jsdelivr.net/gh/orunto/mycdn/outfitr/outfit-set/Outfit" + storedimage + ".webp"
+const imagealt = "Outfit" + storedimage
 
 
 
@@ -52,7 +53,10 @@ const RandomGen = () =>{
 
                 <div className='RandomGenContent'>
                     <div className='RandomGenFunction'>
-                        <RandomGenImage style={{ backgroundImage:`url(${image})` }}/>
+                        <RandomGenImage>
+                            <img src={image} alt={imagealt} />
+                        </RandomGenImage>
+                        {/* <RandomGenImage style={{ backgroundImage:`url(${image})` }}/> */}
                         <div className='RandomGenOptions'>
                             <button id='goback' onClick={goBack}><img src={goback} alt='go back button'/></button>
                             <button id='randomgen' onClick={RandomImageGenerator}><img src={randomgen} alt='random generate button'/></button>
